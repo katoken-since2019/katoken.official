@@ -1,0 +1,186 @@
+@charset "Shift_JIS";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 98%;
+  margin: auto;
+  font-family: "Quicksand"
+}
+
+p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+ul {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+header {
+  background-color: #2eccfa;
+  color: white;
+  height: 67px;
+  top: 0px;
+  margin-top: 8px;
+}
+
+.header-logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Noto Sans JP";
+  float: left;
+  padding: 15px 40px;
+}
+
+
+
+.header-list a {
+  padding-right: 25px;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+  float: left;
+}
+
+.header-list ul {
+  float: right;
+  margin-inline-start: -40px;
+  margin-top: 27px;
+
+}
+
+.header-list a:active{
+  background-color: #26dad4
+}
+
+main{
+  margin: 10px 10px 100px;
+}
+
+main img {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.main-border{
+  border-top: 2px solid #a9a9a9;
+}
+
+.contents-item {
+  margin: 40px 10% 20px;
+}
+
+h1 a {
+  color: #a9a9a9;
+  font-size: 20px;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  padding-left: 0.5em;
+  cursor: pointer;
+}
+
+h2 a {
+  color: #a9a9a9;
+  font-size: 18px;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  padding-left: 1em;
+  cursor: pointer;
+}
+
+h1 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h2 p {
+  color: black;
+  font-size: 18px;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.button {
+  display: inline-block;
+  width: 15%;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  border-left: solid 6px #0000ff;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 18px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  transition: .4s;
+  cursor: pointer;
+}
+
+.button:hover{
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+footer {
+  background-color: #2f5167;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.footer-logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Noto Sans JP";
+  float: left;
+  padding: 8px 40px;
+}
+
+.copy-container {
+  height: 55px;
+}
+
+.footer-list a {
+  display: block;
+  padding-top: -20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  font-weight: nornal;
+  color: white;
+  cursor: pointer;
+  float: left;
+}
+
+.footer-list ul {
+  float: right;
+  margin-right: 40px;
+}
+
+.footer-list a:active{
+  background-color: #26dad4
+}
+
+.copyright {
+  font-size: 15px;
+  text-align: center;
+  height: 22px;
+  padding-bottom: 0.5em;
+}
+
+.copyright span {
+  font-family: "Noto Sans JP"
+}
