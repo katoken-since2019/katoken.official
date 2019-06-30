@@ -1,0 +1,30 @@
+/*タブレット向け*/
+@media (max-width: 1000px) {
+  header {
+    height: 95px;
+    background-color: white;
+    color: #2eccfa;
+  }
+  .header-logo {
+    float: none;
+    text-align: center;
+    background-color: #2eccfa;
+    color: white;
+  }
+  .header-list {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .header-list ul {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .header-list a {
+    color: #2eccfa;
+    width: 33%;
+  }
+}
