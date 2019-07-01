@@ -24,7 +24,7 @@ ul {
 }
 
 header {
-  background-color: #2eccfa;
+  background-color: #00ECFF;
   color: white;
   height: 67px;
   top: 0px;
@@ -36,15 +36,19 @@ header {
   font-weight: bold;
   float: left;
   padding: 15px 40px;
+  text-shadow: 1px 2px 3px #999999;
 }
 
 .header-list a {
-  padding-right: 25px;
+  margin-right: 25px;
   font-size: 20px;
   font-weight: normal;
   color: white;
   cursor: pointer;
   float: left;
+  text-align: center;
+  text-shadow: 1px 2px 3px #999999;
+  text-decoration: none;
 }
 
 .header-list ul {
@@ -64,7 +68,7 @@ main{
 }
 
 main img {
-  width: 75%;
+  width: 70%;
   display: block;
   margin: auto;
   margin-top: 30px;
@@ -82,7 +86,7 @@ main ul{
   width: 100%;
 }
 
-h1 {
+h1 a {
   color: #a9a9a9;
   font-size: 20px;
   font-weight: normal;
@@ -138,8 +142,12 @@ h2 p {
 }
 
 /*インスタ*/
-.sns btn-social-long-insta {
-  /*ボタンの下地*/
+.sns {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.insta_btn2{/*ボタンの下地*/
   color: #FFF;/*文字・アイコン色*/
   border-radius: 7px;/*角丸に*/
   position: relative;
@@ -149,41 +157,43 @@ h2 p {
   text-align: center;/*中身を中央寄せ*/
   font-size: 25px;/*文字のサイズ*/
   line-height: 50px;/*高さと合わせる*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
   background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
   overflow: hidden;/*はみ出た部分を隠す*/
   text-decoration:none;/*下線は消す*/
 }
 
-.btn-social-long-insta:before {
-  /*グラデーション②*/
+.insta_btn2:before{/*グラデーション②*/
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;/*全体を覆う*/
   height: 100%;/*全体を覆う*/
+  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
   background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
 }
 
-.btn-social-long-insta .fa-instagram {
-  /*アイコン*/
+.insta_btn2 .fa-instagram{/*アイコン*/
   font-size: 35px;/*アイコンサイズ*/
   position: relative;
   top: 4px;/*アイコン位置の微調整*/
 }
 
-.btn-social-long-insta span {
-  /*テキスト*/
+.insta_btn2 span {/*テキスト*/
+  font-family: Quicksand, sans-serif;
   display:inline-block;
   position: relative;
-  transition: .5s}
+  transition: .5s
+}
 
-.btn-social-long-insta:hover span {
-  /*ホバーで一周回転*/
+.insta_btn2:hover span{/*ホバーで一周回転*/
   -webkit-transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
   transform: rotateX(360deg);
 }
 
+/*フッター*/
 footer {
   background-color: #2f5167;
   height: 100px;
