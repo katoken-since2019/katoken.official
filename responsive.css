@@ -3,28 +3,36 @@
   header {
     height: 95px;
     background-color: white;
-    color: #2eccfa;
+    color: #00ECFF;
   }
   .header-logo {
     float: none;
     text-align: center;
-    background-color: #2eccfa;
+    background-color: #00ECFF;
     color: white;
   }
   .header-list {
-    display: inline-block;
     margin: auto;
     text-align: center;
     width: 100%;
   }
   .header-list ul {
-    display: inline-block;
+    display: brock;
+    float: left;
     margin: auto;
     text-align: center;
     width: 100%;
   }
   .header-list a {
-    color: #2eccfa;
-    width: 33%;
+    margin: auto;
+    text-align: center;
+    color: #00ECFF;
+    width: 33.3%;
+    text-shadow: none;
   }
+}
+
+/*スマホ向け*/
+@media (max-width: 670px){
+  
 }
