@@ -147,7 +147,7 @@ h2 p {
   margin-top: 50px;
 }
 
-.sns insta_btn2{/*ボタンの下地*/
+.insta_btn2{/*ボタンの下地*/
   color: #FFF;/*文字・アイコン色*/
   border-radius: 7px;/*角丸に*/
   position: relative;
@@ -163,7 +163,7 @@ h2 p {
   text-decoration:none;/*下線は消す*/
 }
 
-.sns insta_btn2:before{/*グラデーション②*/
+.insta_btn2:before{/*グラデーション②*/
   content: '';
   position: absolute;
   top: 0;
@@ -174,20 +174,20 @@ h2 p {
   background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
 }
 
-.sns insta_btn2 .fa-instagram{/*アイコン*/
+.insta_btn2 .fa-instagram{/*アイコン*/
   font-size: 35px;/*アイコンサイズ*/
   position: relative;
   top: 4px;/*アイコン位置の微調整*/
 }
 
-.sns insta_btn2 span {/*テキスト*/
+.insta_btn2 span {/*テキスト*/
   font-family: Quicksand, sans-serif;
   display:inline-block;
   position: relative;
   transition: .5s
 }
 
-.sns insta_btn2:hover span{/*ホバーで一周回転*/
+.insta_btn2:hover span{/*ホバーで一周回転*/
   -webkit-transform: rotateX(360deg);
   -ms-transform: rotateX(360deg);
   transform: rotateX(360deg);
