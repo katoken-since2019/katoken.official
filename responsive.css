@@ -34,5 +34,13 @@
 
 /*スマホ向け*/
 @media (max-width: 670px){
-  
+  .header-logo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .contents-item ul {
+    float: none;
+    margin: auto;
+  }
 }
