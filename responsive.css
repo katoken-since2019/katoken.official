@@ -42,5 +42,6 @@
   .button{
     float: none;
     margin: auto;
+    width: 80%;
   }
 }
