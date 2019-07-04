@@ -35,15 +35,21 @@
 /*スマホ向け*/
 @media (max-width: 670px){
   .header-logo, footer-logo {
+    float: none;
     text-align: center;
-    margin: auto;
   }
-
   .button{
     float: none;
     margin: auto;
     width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .footer-list {
+    display: none;
+  }
+  .copyright{
+    font-size: 15px;
+    text-align: center;
   }
 }
