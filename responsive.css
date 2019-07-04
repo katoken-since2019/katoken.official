@@ -34,9 +34,12 @@
 
 /*スマホ向け*/
 @media (max-width: 670px){
-  .header-logo, footer-logo {
+  .header-logo, .footer-logo {
     float: none;
     text-align: center;
+  }
+  img {
+    width: 100%;
   }
   .button{
     float: none;
