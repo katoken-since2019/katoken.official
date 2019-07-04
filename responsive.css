@@ -35,6 +35,7 @@
 /*スマホ向け*/
 @media (max-width: 670px){
   .header-logo, .footer-logo {
+    display: inline-block;
     float: none;
     text-align: center;
   }
