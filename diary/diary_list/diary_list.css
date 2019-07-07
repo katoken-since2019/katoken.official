@@ -41,6 +41,7 @@ main img {
 }
 
 .contents a {
+  display: block;
   text-decoration: none;
   color: white;
 }
