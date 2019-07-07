@@ -37,7 +37,12 @@ main img {
 }
 
 .contents ul {
-  margin: 50px 30px 100px;
+  margin: 50px 15% 100px;
+}
+
+.contents a {
+  text-decoration: none;
+  color: white;
 }
 
 h1 {
