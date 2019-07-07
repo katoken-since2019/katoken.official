@@ -1,7 +1,7 @@
 /*タブレット向け*/
 @media (max-width: 1000px) {
   header {
-    height: 95px;
+    height: 70px;
     background-color: white;
     color: #00ECFF;
   }
