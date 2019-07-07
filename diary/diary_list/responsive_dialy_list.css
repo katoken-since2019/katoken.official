@@ -1,1 +1,7 @@
 @charset "Shift JIS";
+/*スマホ向け*/
+@media (max-width: 670px){
+  main img {
+    width: 100%;
+  }
+}

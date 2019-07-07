@@ -23,8 +23,32 @@ ul {
   margin-block-end: 0.5em;
 }
 
-
 main{
   height: relative;
   margin: 10px 10px 100px;
+}
+
+main img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contents ul {
+  margin: 50px 30px 100px;
+}
+
+h1 {
+  font-size: 18px;
+  color: a9a9a9;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h2 span {
+  font-size: 20px;
 }
