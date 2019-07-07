@@ -1,0 +1,13 @@
+/*スマホ向け*/
+@media (max-width: 670px){
+  main img {
+    width: 100%;
+  }
+  .button{
+    float: none;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
