@@ -32,6 +32,9 @@ header {
 }
 
 .header-logo, .header-logo a {
+  height: 90px;
+  text-decoration: none;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   float: left;
@@ -122,6 +125,8 @@ footer {
 }
 
 .footer-logo, .footer-logo a {
+  text-decoration: none;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   float: left;
