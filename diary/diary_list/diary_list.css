@@ -1,8 +1,4 @@
 @charset "Shift_JIS";
-* {
-  box-sizing: border-box;
-  font-family: "Noto Sans JP", "Quicksand";
-}
 
 ul {
   padding-inline-start: 0px;
@@ -43,12 +39,11 @@ main img {
 .contents a {
   display: block;
   text-decoration: none;
-  color: white;
 }
 
 h1 {
   font-size: 18px;
-  color: a9a9a9;
+  color: #a9a9a9;
 }
 
 h2 {

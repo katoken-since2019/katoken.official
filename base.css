@@ -31,7 +31,7 @@ header {
   margin-top: 8px;
 }
 
-.header-logo {
+.header-logo, .header-logo a {
   font-size: 25px;
   font-weight: bold;
   float: left;
@@ -121,7 +121,7 @@ footer {
   margin-bottom: 8px;
 }
 
-.footer-logo {
+.footer-logo, .footer-logo a {
   font-size: 25px;
   font-weight: bold;
   float: left;
