@@ -43,6 +43,7 @@ header {
 }
 
 .header-list a {
+  margin: auto;
   margin-right: 30px;
   font-size: 20px;
   font-weight: normal;
@@ -125,6 +126,7 @@ footer {
 }
 
 .footer-logo, .footer-logo a {
+  margin: auto;
   text-decoration: none;
   color: white;
   font-size: 25px;
