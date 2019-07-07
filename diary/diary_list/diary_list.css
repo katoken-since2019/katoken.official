@@ -1,1 +1,30 @@
-@charset "Shift-JIS";
+@charset "Shift_JIS";
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", "Quicksand";
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+body {
+  width: 98%;
+  margin: auto;
+}
+
+p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+ul {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+
+main{
+  height: relative;
+  margin: 10px 10px 100px;
+}
