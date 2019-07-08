@@ -4,12 +4,17 @@
 }
 
 input, textarea {
+  display: block;
   width:400px;
   margin-top:10px;
   margin-bottom:30px;
   padding:20px;
   font-size:18px;
   border: 1px solid #dee7ec;
+}
+
+placeholder {
+  color: #a9a9a9;
 }
 
 .contact-submit {
