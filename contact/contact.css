@@ -91,6 +91,12 @@ input[type="submit"] {
   margin: 0 10px;
 }
 
+input[type="submit"]:active {
+  border: solid 1px #e0505c;
+  box-shadow: none;
+  text-shadow: none;
+}
+
 input[type="reset"] {
   text-decoration: none;
   color: #67c5ff;
