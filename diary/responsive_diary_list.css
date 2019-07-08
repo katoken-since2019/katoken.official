@@ -1,4 +1,4 @@
-@charset "Shift JIS";
+@charset "utf-8";
 /*スマホ向け*/
 @media (max-width: 670px){
   main img {
