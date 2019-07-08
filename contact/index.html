@@ -29,11 +29,9 @@
     <main>
       <div class="contact-form">
         <h1 class="section-title">コンタクトフォーム</h1>
-          <p>メールアドレス（必須）</p>
-          <input type="text" name="" value="">
-          <p>メッセージ </p>
-          <textarea name="name" rows="8" cols="80"></textarea>
-          <p>※必須項目は必ずご入力ください</p>
+          <label for="interlock">メールアドレス</label> <input placeholder="xxxxx@xx" id="interlock" type="email" name="email">
+          <label for="interlock">名前</label> <input placeholder="Your Name" id="interlock" type="text" name="name">
+          <label for="interlock">コメント</label> <textarea placeholder="ご意見・ご感想" id="interlock" name="comment" rows="8" cols="80"></textarea>
           <input class="contact-submit" type="submit" name="" value="送信">
       </div>
       <div class="sns">
