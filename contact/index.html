@@ -31,15 +31,35 @@
         <h1 class="section-title">コンタクトフォーム</h1>
         <form class="contact" action="index.html" method="post">
           <div class="item">
-            <label for="email">メールアドレス</label>
+            <label for="email" class="label">メールアドレス</label>
             <input placeholder="xxxxx@xx" id="email" type="email" class="inputs" name="email">
           </div>
           <div class="item">
-            <label for="name">名前</label>
+            <label for="name" class="label">名前</label>
             <input placeholder="Your Name" id="name" type="text" class="inputs" name="name">
           </div>
           <div class="item">
-            <label for="comment">コメント</label>
+            <p class="label">性別</p>
+            <div class="inputs radio">
+              <input id="male" type="radio" name="sex" value="male"><label for="male">男性</label>
+              <input id="female" type="radio" name="sex" value="female"><label for="female">女性</label>
+              <input id="female" type="radio" name="sex" value="others"><label for="others">指定しない</label>
+            </div>
+          </div>
+          <div class="item">
+            <p class="label">年齢</p>
+            <select class="inputs select" name="age">
+              <option value="10">10代</option>
+              <option value="20">20代</option>
+              <option value="30">30代</option>
+              <option value="40">40代</option>
+              <option value="50">50代</option>
+              <option value="60">60代</option>
+              <option value="70~">70代～</option>
+            </select>
+          </div>
+          <div class="item">
+            <label for="comment" class="label">コメント</label>
             <textarea placeholder="現在メッセージを送信することはできません。" id="comment" name="comment" rows="8" cols="80"></textarea>
           </div>
           <div class="btn-area">
