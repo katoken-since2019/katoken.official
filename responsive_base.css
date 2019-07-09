@@ -12,16 +12,42 @@
     color: white;
   }
   .header-list {
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
     width: 100%;
   }
-  .header-list ul {
+  /*chrome*/
+  @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
+    .header-list ul {
+      display: block;
+      float: left;
+      margin: auto;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  /*ie*/
+  _:-ms-lang(x)::-ms-backdrop, .header-list ul {
     display: block;
     float: left;
     margin: auto;
+    margin-left: -20px;
+    margin-right: 20px;
     text-align: center;
     width: 100%;
+  }
+  /*edge*/
+  @supports (-ms-ime-align: auto) {
+    .header-list ul {
+      display: block;
+      float: left;
+      margin: auto;
+      margin-left: -20px;
+      margin-right: 20px;
+      text-align: center;
+      width: 100%;
+    }
   }
   .header-list a {
     margin: auto;
