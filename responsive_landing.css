@@ -11,4 +11,26 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+    /*chrome*/
+  @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) main ul {
+      margin: auto;
+      text-align: center;
+    }
+  /*ie*/
+  _:-ms-lang(x)::-ms-backdrop, main ul {
+    margin: auto;
+    margin-left: -20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  /*edge*/
+  @supports (-ms-ime-align: auto) main ul {
+      margin: auto;
+      margin-left: -20px;
+      margin-right: 20px;
+      text-align: center;
+      width: 100%;
+    }
+  }
 }
