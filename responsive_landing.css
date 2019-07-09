@@ -1,7 +1,8 @@
 /*スマホ向け*/
 @media (max-width: 670px){
   main img {
-    width: 100%;
+    width: 98%;
+    margin: 10px auto 10px;
   }
   .button{
     float: none;
