@@ -49,12 +49,14 @@ form {
   width: 30%;
   border-left: solid 3px #e0505d;
   padding: 10px;
+  margin: 0;
 }
 
 .inputs {
   float: right;
   width: 65%;
 }
+
 .radio {
   padding: 10px 0;
 }

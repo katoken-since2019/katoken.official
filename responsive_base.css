@@ -17,7 +17,7 @@
     width: 100%;
   }
   .header-list ul {
-    display: brock;
+    display: block;
     float: left;
     margin: auto;
     text-align: center;
@@ -40,13 +40,19 @@
     text-align: center;
   }
   footer {
-    height: 120px;
+    height: 60px;
+  }
+  .footer-logo {
+    font-size: 15px;
+  }
+  .copy-container {
+    height: 35px;
   }
   .footer-list {
     display: none;
   }
   .copyright{
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
   }
 }

@@ -1,4 +1,28 @@
 @charset "utf-8";
 @media (max-width: 1000px) {
-
+  .contact-form {
+    margin: 50px 8% 100px;
+  }
+}
+@media (max-width: 670px) {
+  main {
+    margin-bottom: 80px;
+  }
+  .contact-form {
+    margin: 50px 8% 50px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+  }
+  form {
+    width: 100%;
+  }
+  .label {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .inputs {
+    float: none;
+    width: 100%;
+  }
 }
