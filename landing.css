@@ -5,14 +5,14 @@ body {
 }
 
 main{
-  margin: 10px 10px 100px;
+  margin: auto 10px 100px;
 }
 
 main img {
   width: 70%;
   display: block;
   text-align: center;
-  margin: 30px 15%;
+  margin: auto 15%;
 }
 
 .main-border{
