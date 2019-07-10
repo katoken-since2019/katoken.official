@@ -6,6 +6,8 @@
 
 ul {
   padding-inline-start: 0px;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 body {
@@ -18,13 +20,8 @@ p {
   margin-block-end: 0;
 }
 
-ul {
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-}
-
 header {
-  background-color: #00ECFF;
+  background-color: #00ECFF !important;
   color: white;
   height: 67px;
   top: 0px;

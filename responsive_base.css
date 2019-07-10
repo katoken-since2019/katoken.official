@@ -2,8 +2,6 @@
 @media (max-width: 1000px) {
   header {
     height: 70px;
-    background-color: white;
-    color: #00ECFF;
   }
   .header-logo {
     float: none;
@@ -12,6 +10,8 @@
     color: white;
   }
   .header-list {
+    background-color: white;
+    color: #00ECFF;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;

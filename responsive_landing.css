@@ -1,3 +1,28 @@
+/*chrome*/
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
+  main ul {
+    margin: auto;
+    width: 100%;
+  }
+}
+/*ie*/
+_:-ms-lang(x)::-ms-backdrop, main ul {
+  margin: auto 20px auto -20px;
+  margin-left: -20px;
+  margin-right: 20px;
+  text-align: center;
+  width: 100%;
+}
+/*edge*/
+@supports (-ms-ime-align: auto) {
+  main ul {
+    display: block;
+    float: left;
+    margin: auto 20px auto -20px;
+    text-align: center;
+    width: 100%;
+  }
+}
 /*スマホ向け*/
 @media (max-width: 670px){
   main img {
@@ -10,27 +35,5 @@
     width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-    /*chrome*/
-  @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) main ul {
-      margin: auto;
-      text-align: center;
-    }
-  /*ie*/
-  _:-ms-lang(x)::-ms-backdrop, main ul {
-    margin: auto;
-    margin-left: -20px;
-    margin-right: 20px;
-    text-align: center;
-    width: 100%;
-  }
-  /*edge*/
-  @supports (-ms-ime-align: auto) main ul {
-      margin: auto;
-      margin-left: -20px;
-      margin-right: 20px;
-      text-align: center;
-      width: 100%;
-    }
   }
 }
