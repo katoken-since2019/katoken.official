@@ -68,6 +68,16 @@
   footer {
     height: 60px;
   }
+  /*ie*/
+  _:-ms-lang(x)::-ms-backdrop, footer {
+    height: 70px;
+  }
+  /*edge*/
+  @supports (-ms-ime-align: auto) {
+    footer {
+      height: 70px;
+    }
+  }
   .footer-logo {
     font-size: 15px;
   }
