@@ -23,6 +23,14 @@ _:-ms-lang(x)::-ms-backdrop, main ul {
     width: 100%;
   }
 }
+
+/*タブレット向け*/
+@media (max-width: 1000px) {
+  main img {
+    margin: 80px auto 100px;
+  }
+}
+
 /*スマホ向け*/
 @media (max-width: 670px){
   main img {
