@@ -83,7 +83,7 @@ textarea {
   text-align: center;
 }
 
-input[type="submit"] {
+input[type="button"] {
   background: #e0505c;
   border: solid 1px #f13b47;
   position: relative;
@@ -97,7 +97,7 @@ input[type="submit"] {
   margin: 0 10px;
 }
 
-input[type="submit"]:active {
+input[type="button"]:active {
   border: solid 1px #e0505c;
   box-shadow: none;
   text-shadow: none;
