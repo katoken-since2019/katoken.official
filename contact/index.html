@@ -12,6 +12,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="responsive_contact.css" rel="stylesheet" type="text/css" />
     <link href="../responsive_base.css" rel="stylesheet" type="text/css" />
+      
+    <script type="text/javascript">
+        function formsend(){
+            if(form.email.value == ""){
+                alert("メールアドレスを埋めてください");
+                return false;
+            } else {
+                var emailform = form.email.value;
+            }
+            if(form.name.value == ""){
+                alert("名前を埋めてください");
+                return false;
+            } else {
+                var nameform = form.name.value;
+            }
+            if(form.sex.value == ""){
+                alert("性別を選択してください")
+                return false;
+            } else {
+                var sexform = form.sex.value;
+            }
+            if(form.age.value == ""){
+                alert("年代を選択してください");
+                return false;
+            } else {
+                var ageform = form.age.value;
+            }
+            if(form.comment.value == ""){
+                alert("コメントを埋めてください");
+                return false;
+            } else {
+                var commentform = form.comment.value;
+            }
+            alert(emailform + nameform + sexform + ageform + commentform);
+            
+        }
+    </script>
   </head>
   <body>
     <header>
@@ -29,7 +66,7 @@
     <main>
       <div class="contact-form">
         <h1 class="section-title">コンタクトフォーム</h1>
-        <form class="contact" action="index.html" method="post">
+        <form class="contact" action="index.html" method="post" name="form" onsubmit="return check(this)">
           <div class="item">
             <label for="email" class="label">メールアドレス</label>
             <input placeholder="xxxxx@xx" id="email" type="email" class="inputs" name="email">
@@ -43,7 +80,7 @@
             <div class="inputs radio">
               <input id="male" type="radio" name="sex" value="male"><label for="male">男性</label>
               <input id="female" type="radio" name="sex" value="female"><label for="female">女性</label>
-              <input id="female" type="radio" name="sex" value="others"><label for="others">指定しない</label>
+              <input id="others" type="radio" name="sex" value="others"><label for="others">指定しない</label>
             </div>
           </div>
           <div class="item">
@@ -64,7 +101,7 @@
             <textarea class="inputs" placeholder="現在メッセージを送信することはできません。" id="comment" name="comment" rows="8" cols="80"></textarea>
           </div>
           <div class="btn-area">
-            <input class="contact-submit" type="submit" value="SEND"><input type="reset" value="RESET">
+            <input class="contact-submit" type="button" value="SEND" onclick="formsend()"><input type="reset" value="RESET">
           </div>
         </form>
       </div>
