@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="responsive_contact.css" rel="stylesheet" type="text/css" />
     <link href="../responsive_base.css" rel="stylesheet" type="text/css" />
-      
+
     <script type="text/javascript">
         function formsend(){
             if(form.email.value == ""){
@@ -46,7 +46,7 @@
                 var commentform = form.comment.value;
             }
             alert(emailform + nameform + sexform + ageform + commentform);
-            
+
         }
     </script>
   </head>
@@ -98,7 +98,7 @@
           </div>
           <div class="item">
             <label for="comment" class="label">コメント</label>
-            <textarea class="inputs" placeholder="現在メッセージを送信することはできません。" id="comment" name="comment" rows="8" cols="80"></textarea>
+            <textarea class="inputs" id="comment" name="comment" rows="8" cols="80">現在メッセージを送信することはできません。</textarea>
           </div>
           <div class="btn-area">
             <input class="contact-submit" type="button" value="SEND" onclick="formsend()"><input type="reset" value="RESET">
